@@ -13,7 +13,7 @@
     .nav-bar ul  {
         display: none;
     }
-    .nav-bar humberger i{
+    .nav-bar .humberger i{
         display: block;
         color: white;
     }
