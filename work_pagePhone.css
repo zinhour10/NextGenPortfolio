@@ -11,8 +11,11 @@
         background-color: black;
     }
     .nav-bar ul  {
-        display: flex;
-        flex-direction: row;
+        display: none;
+    }
+    .nav-bar humberger i{
+        display: block;
+        color: white;
     }
       
 }
