@@ -1,21 +1,111 @@
-.nav-bar{
-    height: 50px;
-    width: 100%;
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    background-color: #7C8C8C;
 }
 
 @media only screen and (max-width: 768px) {
-    .nav-bar{
-        height: 50px;
+    .header {
+        padding: 0 50px;
+    }
+    .header h1{
+        color: #FFCCB2;
+        font-size: 36px;
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        font-weight: 800;
+        text-align: center;
+    }
+    .header p{
+        color: #FFE4D5;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        font-weight: 800;
+        text-align: center;
+    }
+    .project-part{
+        padding: 0 20px;
+    } 
+
+    .project-part h1{
+        font-family: "Bebas Neue", sans-serif;
+        color: #FFCCB2;
+        font-size: 36px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .card {
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    .card .description{
+        padding: 20px 20px;
+    }
+
+    .card p{
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 16px;
+        color: #A29A89;
+    }
+ 
+    .card .nameProject{
+        font-family: "Bebas Neue", sans-serif;
+        color: #FFCCB2;
+        font-size: 32px;
+        font-weight: normal;     
+    }
+
+    .card .project-img{
         width: 100%;
-        background-color: black;
     }
-    .nav-bar ul  {
-        display: none;
+    .card .project-img img{
+        width: 100%;
     }
-    .nav-bar .humberger i{
-        display: block;
-        color: white;
+
+    .tech{
+        font-family: "Bebas Neue", sans-serif;
+        padding: 0 20px;
     }
-      
+    .tech .item{
+        display: flex;
+        flex-direction: row;
+        height: 48px;
+        gap: 12px;
+    }
+    .item1, .item2, .item3{
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        border: 1px solid black;
+        align-items: center;
+        padding: 15px 20px;
+        gap: 4px;
+        border-radius: 20px;
+        width: 140px;
+    }
+
+
+    /* main-part */
+    .main-part{
+        font-family: "Bebas Neue", sans-serif;
+        padding: 0 20px;
+    }
+    .main-part .front-end{
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+    .main-part .front-end .card_header_text{
+        font-size: 32px;
+        text-align: center;
+    }
+    .main-part .front-end .card_description{
+        text-align: center;
+    }
+
+
 }
