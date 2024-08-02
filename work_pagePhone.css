@@ -28,6 +28,9 @@ body{
     }
     .project-part{
         padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     } 
 
     .project-part h1{
@@ -41,6 +44,7 @@ body{
     .card {
         border-radius: 20px;
         border: 1px solid black;
+        max-width: 400px;
     }
 
     .card .description{
@@ -81,6 +85,9 @@ body{
         gap: 12px;
         width: 100%;
         overflow-x: auto;
+    }
+    .tech .item::-webkit-scrollbar{
+        display: none;
     }
     .item1, .item2, .item3{
         display: flex;
