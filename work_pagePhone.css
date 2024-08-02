@@ -70,12 +70,17 @@ body{
     .tech{
         font-family: "Bebas Neue", sans-serif;
         padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .tech .item{
         display: flex;
         flex-direction: row;
         height: 48px;
         gap: 12px;
+        width: 100%;
+        overflow-x: auto;
     }
     .item1, .item2, .item3{
         display: flex;
@@ -87,6 +92,7 @@ body{
         gap: 4px;
         border-radius: 20px;
         width: 140px;
+        background-color: #E5DFCF;
     }
 
 
@@ -94,18 +100,74 @@ body{
     .main-part{
         font-family: "Bebas Neue", sans-serif;
         padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
     }
-    .main-part .front-end{
+    .main-part h1, .tech h1{
+        color: #FFCCB2;
+        font-weight: normal;
+    }
+    .main-part .mainCard{
         border-radius: 20px;
         border: 1px solid black;
+        max-width: 500px;
+        padding: 0 20px;
+        margin-bottom: 20px;
+        background-color: #E5DFCF;
+        padding-bottom: 20px;
+
     }
-    .main-part .front-end .card_header_text{
+    .main-part .mainCard .card_header_text{
         font-size: 32px;
         text-align: center;
     }
-    .main-part .front-end .card_description{
+    .main-part .mainCard .card_description{
         text-align: center;
     }
+    .main-part .mainCard .img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
 
+    .skill {
+        padding: 0 19px 60px 19px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-bottom: 60px;
+        background-color: #E5DFCF;
+    }
 
+    .skill_header{
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 22px;
+        
+    }
+    .card_header_text{
+        font-size: 32px;
+        color: #025A4E;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .skill_list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+    }
+
+    .logoSkill{
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        border: 1px solid black;
+        align-items: center;
+        padding: 15px 20px;
+        gap: 4px;
+        border-radius: 20px;
+        width: 140px;
+    }
 }
