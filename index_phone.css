@@ -126,17 +126,30 @@ body{
         font-size: 28px;
         color: #025A4E;
         text-align: left;
+        margin: 8px 0;
     }
 
     .card3{
         padding: 0 24px;
+        padding-bottom: 12px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
     }
 
-    .card3 .btn {
-        padding: 8px 24px;
-    }
-    .card3 .btn a{
+    .card3 .btn2 {
+        padding: 8px 20px;
+        background-color: #7BE36A;
+        border-radius: 20px;
         font-family: "Bebas Neue", sans-serif;
-        font-size: 24px;
+        color: white; 
+        width: 80px;
+        align-self: flex-end;
+        margin-top: 12px;
+    }
+    .card3 .btn2 a{
+        font-family: "Bebas Neue", sans-serif;
+        text-align: center;    
+        
     }
 }
