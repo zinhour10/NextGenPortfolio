@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>NextGen</title>
+    <link rel="shortcut icon" type="x-icon"
+        href="https://th.bing.com/th?q=Free+Downloadable+Facebook+Logo&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.2&pid=InlineBlock&mkt=en-WW&cc=KH&setlang=en&adlt=strict&t=1&mw=247">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="contact.css">
 </head>
 
@@ -29,46 +33,56 @@
     <div class="content">
         <form action="">
             <div class="name-input">
-                <div>
-                    <label for="">FirstName : </label>
-                    <input type="text">
+                <div class="surname">
+                    <label for="fname">FirstName : </label>
+                    <input type="text" id="fname" placeholder=" FirstName ">
                 </div>
-                <div>
-                    <label for="">LastName : </label>
-                    <input type="text">
+                <div class="surname">
+                    <label for="lname">LastName : </label>
+                    <input type="text" id="lname" placeholder=" Lastname">
                 </div>
             </div>
 
             <div class="email">
-                <label for="">Email</label>
-                <input type="email">
+                <label for="email">Email : </label>
+                <input type="email" id="email">
             </div>
 
             <div class="p-number">
                 <label for="">Phone Number</label>
-                <input type="text">
+                <input type="text" id="p-number">
             </div>
 
-            <label for="">Message :</label>
-            <textarea> </textarea>
+            <div class="message">
+                <label for="message">Message :</label>
+                <textarea id="message"> </textarea>
+            </div>
 
-            <div>
+
+            <div class="checkbox">
                 <input type="checkbox">
                 <p>You agree to your friendly privacy policy</p>
             </div>
 
-            <button>Send Message</button>
+            <button id="btn">send message</button>
+
 
 
         </form>
     </div>
     <footer>
-        <div>
-            <span>Logo for FB</span>
-            <span>Logo For IG</span>
-            <span>Logo For X</span>
-            <span>Log for LinkedIn</span>
-            <p>Copyright @2024 All rights reserved</p>
+        <div class="footer">
+            <div class="media-logo">
+
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <span><i class="fa-brands fa-square-twitter"></i></span>
+                <span><i class="fa-brands fa-linkedin"></i></span>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©2020 All rights reserved </p>
+            </div>
+
         </div>
     </footer>
 </body>
