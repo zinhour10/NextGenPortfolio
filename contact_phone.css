@@ -99,6 +99,7 @@ body{
         border: 1px solid #000;
         box-sizing: border-box;
         margin-bottom: 0px;
+        padding-top: 8px;
     }
     .check{
         display: flex;
