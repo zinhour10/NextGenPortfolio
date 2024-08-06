@@ -31,6 +31,8 @@ body{
         font-style: italic;
         font-weight: 800;
         text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .header p{
         color: #FFE4D5;
@@ -39,12 +41,20 @@ body{
         font-style: italic;
         font-weight: 800;
         text-align: center;
+        margin-bottom: 64px;
     }
 
     .content{
         padding: 0 28px;
         font-family: "Bebas Neue", sans-serif;
 
+    }
+    .fullname label, .email label, .p-number label, .message label {
+        margin-bottom: 2px;
+    }
+    .fullname input,.email input,.p-number input, .message textarea{
+        margin-bottom: 8px;
+        padding-left: 12px;
     }
 
     .name-input{
@@ -88,9 +98,20 @@ body{
         background-color: #e5dfcf;
         border: 1px solid #000;
         box-sizing: border-box;
+        margin-bottom: 0px;
     }
     .check{
         display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .check input{
+        height: 12px;
+        width: 12px;
+        /* outline: 1px solid black; */
+        margin-right: 8px;
+        bottom: 10px;
     }
     .btn{
         display: flex;
@@ -103,5 +124,7 @@ body{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border: 1px solid #000;
         box-sizing: border-box;
+        margin-bottom: 20px;
+        color: white;
     }
 }
