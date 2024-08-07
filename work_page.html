@@ -9,6 +9,11 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="work_page.css">
+    <link rel="stylesheet" href="work_page.css">
+    <link rel="stylesheet" href="mobile_nav.css">
+    <link rel="stylesheet" href="work_pagePhone.css">
+    <link rel="stylesheet" href="phone_footer.css">
+    <script src="navbar.js"></script>
 </head>
 
 <body>
@@ -16,14 +21,14 @@
     <!-- Nav-Bar -->
 
     <div class="nav-bar">
-        <ul>
+        <ul id="navlist">
             <li><a href="work_page.html">Work</a></li>
             <li><a href="profile.html">About</a></li>
             <li><a href="">Play</a></li>
             <li><a href="">Note</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <a class="icon humberger">
+        <a class="icon humberger" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
@@ -61,27 +66,27 @@
     <div class="tech">
         <h1>Technology Used</h1>
         <div class="item">
-            <div class="item1">
+            <div class="itemAll item1">
                 <span><i class="fa-brands fa-html5"></i></span>
                 <p>HTMl</p>
             </div>
 
-            <div class="item1 item2">
+            <div class="itemAll item2">
                 <span><i class="fa-brands fa-js"></i></span>
                 <p>javascript</p>
             </div>
 
-            <div class="item1 item3">
+            <div class="itemAll item3">
                 <span><i class="fa-brands fa-bootstrap" style="color: #692C50;"></i></span>
                 <p>Bootstrap</p>
             </div>
 
-            <div class="item1 ">
+            <div class="item1 itemAll">
                 <span><i class="fa-brands fa-php" style="color: #8892be;"></i></i></span>
                 <p>PHP</p>
             </div>
 
-            <div class="item1 ">
+            <div class="item1 itemAll">
                 <span><i class="fa-solid fa-database"></i></span>
                 <p>MySQL</p>
             </div>
@@ -92,27 +97,27 @@
     <!-- What we do -->
     <div class="main-part">
         <h1>What we do</h1>
-        <div class="front-end">
-            <h1>Front-End</h1>
-            <div>
+        <div class="front-end mainCard">
+            <h1 class="card_header_text">Front-End</h1>
+            <div class="img">
                 <img src="image/frontend.png" alt="">
             </div>
-            <p>Front-end development involves creating the visual and interactive aspects of websites using HTML, CSS,
+            <p class="card_description">Front-end development involves creating the visual and interactive aspects of websites using HTML, CSS,
                 and JavaScript to ensure a responsive, user-friendly, and engaging experience.</p>
         </div>
 
-        <div class="back-end front-end">
-            <h1>Back-End</h1>
-            <div>
+        <div class="back-end front-end mainCard">
+            <h1 class="card_header_text">Back-End</h1>
+            <div class="img">
                 <img src="image/backend.png" alt="">
             </div>
             <p>Backend development involves server-side logic, databases, and APIs using technologies like Python,
                 Node.js, Java, ensuring functionality and scalability.</p>
         </div>
 
-        <div class="web-design front-end">
-            <h1>Web Design</h1>
-            <div>
+        <div class="web-design front-end mainCard">
+            <h1 class="card_header_text">Web Design</h1>
+            <div class="img">
                 <img src="image/web_design.png" alt="">
             </div>
             <p>Web design involves creating the visual layout, user interface, and overall aesthetic of websites,
@@ -120,40 +125,40 @@
         </div>
 
         <div class="skill">
-            <h1>SKILL</h1>
-            <div class="logo">
-                <div class="s1 item1">
+            <h1 class="card_header_text">SKILL</h1>
+            <div class="logo skill_list">
+                <div class="s1 item1 logoSkill">
                     <span><i class="fa-brands fa-html5"></i></span>
                     <p>HTML</p>
                 </div>
 
-                <div class="s2 item1">
+                <div class="s2 item1 logoSkill">
                     <span><i class="fa-brands fa-square-js" style="color: rgb(210, 210, 51);"></i></span>
                     <p>JavaScript</p>
                 </div>
 
-                <div class="s3 item1">
+                <div class="s3 item1 logoSkill">
                     <span><i class="fa-brands fa-bootstrap" style="color: #692C50;"></i></span>
                     <p>Bootstrap</p>
                 </div>
 
-                <div class="s4 item1">
+                <div class="s4 item1 logoSkill">
                     <span><i class="fa-brands fa-css3-alt " style="color: #2965f1;"></i></span>
                     <p>CSS</p>
                 </div>
-                <div class="s5 item1">
+                <div class="s5 item1 logoSkill">
                     <span><i class="fa-brands fa-laravel" style="color: #F55247;"></i></span>
                     <p>Laravel</p>
                 </div>
-                <div class="s6 item1">
+                <div class="s6 item1 logoSkill">
                     <span><i class="fa-brands fa-react" style="color: #61dbfb;"></i></span>
                     <p>React Js</p>
                 </div>
-                <div class="s7 item1">
+                <div class="s7 item1 logoSkill">
                     <span><i class="fa-brands fa-figma" style="color: #DA9DFF,"></i></span>
                     <p>Figma</p>
                 </div>
-                <div class="s8 item1">
+                <div class="s8 item1 logoSkill">
                     <span><i class="fa-brands fa-node-js" style="color: #68A063;"></i></span>
                     <p>Node js</p>
                 </div>

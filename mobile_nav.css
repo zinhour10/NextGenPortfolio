@@ -1,0 +1,23 @@
+
+@media only screen and (max-width: 768px) {
+    .nav-bar {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 0 20px; /* Add some padding to align the content nicely */
+        box-sizing: border-box; /* Ensure padding doesn't affect width */
+    }
+    .nav-bar ul {
+        display: none;
+    }
+    .nav-bar .humberger {
+        display: flex;
+        align-items: center;
+    }
+    .nav-bar .humberger i {
+        color: white;
+        font-size: 28px;
+    }     
+}
