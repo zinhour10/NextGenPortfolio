@@ -27,4 +27,186 @@
     text-decoration: none;
     color: inherit;
   }
+
+  .header {
+    margin-top: 50px;
+    text-align: center;
+    text-wrap: balance;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .header p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  .project-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+  }
+
+  .project-part > h1 {
+    color: #025a4e;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    background-color: #d9d9d9;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .card h1 {
+    color: #025a4e;
+  }
+
+  .card p {
+    color: #a29a89;
+  }
+
+  .project-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tech h1 {
+    text-align: center;
+    color: #025a4e;
+    font-size: 3rem;
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .item1 {
+    display: flex;
+    color: black;
+    background-color: #e5dfcf;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 143px;
+    height: 47px;
+    border-radius: 20px;
+  }
+
+  .item1 i,
+  .item p {
+    color: orange;
+    font-size: 1.5rem;
+  }
+
+  .item1 p {
+    color: black;
+  }
+
+  .item2 i {
+    color: #e3c815;
+  }
+
+  .main-part {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .main-part h1 {
+    font-size: 3rem;
+  }
+
+  .front-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5dfcf;
+    justify-content: center;
+
+    color: #025a4e;
+    border-radius: 20px;
+    margin: 10px 30px;
+  }
+
+  .front-end p {
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-wrap: wrap;
+    color: black;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+    background-color: #e5dfcf;
+  }
+
+  .skill h1 {
+    color: #025a4e;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .s1,
+  .s2,
+  .s3,
+  .s4,
+  .s5,
+  .s6,
+  .s7,
+  .s8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+  }
+
+  footer {
+    margin-top: 100px;
+    border-top: 2px solid black;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .media-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    font-size: 2rem;
+  }
+
+  .copyright {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
 }
