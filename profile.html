@@ -8,22 +8,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/2lt4u0mo8EGFY4/yUpG7RZj3BQqU85dB1Oe5ZD"
+    crossorigin="anonymous"></script>
     <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="mobile_nav.css">
+    <link rel="stylesheet" href="phone_footer.css">
+    <link rel="stylesheet" href="profile_phone.css">
+    <script src="navbar.js"></script>
 </head>
 
 <body>
     <div class="nav-bar">
-        <ul>
+        <ul id="navlist">
             <li><a href="work_page.html">Work</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Play</a></li>
             <li><a href="">Note</a></li>
             <li><a href="">Contact</a></li>
         </ul>
-        <a class="icon humberger">
+        <a class="icon humberger" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
+    <div class="content">
 
     <!-- Profile  -->
     <div class="profile">
@@ -32,7 +40,7 @@
             <h4>I'm a Bachelor Study in Phnom Penh, Camdodia.</h4>
         </div>
         <div>
-            <img src="" alt="">
+            <img src="image/hour 1.png" alt="">
         </div>
     </div>
 
@@ -51,18 +59,24 @@
 
     <!-- Philosophy -->
 
-    <div>
+    <div class="d3">
         <h1>Philosophy</h1>
         <p>I believe in writing clean, efficient code and am passionate about continuous learning and improvement.
+           
             Collaboration and innovation are at the heart of my work ethic.</p>
     </div>
+</div>
     <footer>
-        <div>
-            <span>Logo for FB</span>
-            <span>Logo For IG</span>
-            <span>Logo For X</span>
-            <span>Log for LinkedIn</span>
-            <p>Copyright @2024 All rights reserved</p>
+        <div class="footer">
+            <div class="media-logo">
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <span><i class="fa-brands fa-square-twitter"></i></span>
+                <span><i class="fa-brands fa-linkedin"></i></span>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©2020 All rights reserved </p>
+            </div>
         </div>
     </footer>
 </body>

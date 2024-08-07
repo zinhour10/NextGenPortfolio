@@ -1,20 +1,24 @@
 
 @media only screen and (max-width: 768px) {
     .nav-bar {
-        height: 50px;
         width: 100%;
+        background-color: #7C8C8C;
         display: flex;
-        align-items: center;
-        justify-content: end;
+        flex-direction: column-reverse;
+        padding-top: 20px;
         padding: 0 20px; /* Add some padding to align the content nicely */
         box-sizing: border-box; /* Ensure padding doesn't affect width */
     }
     .nav-bar ul {
-        display: none;
+        display: b;
+        justify-self: center;
+        align-self: center;
+        list-style-type: none;
+        margin-bottom: 50px;
     }
     .nav-bar .humberger {
         display: flex;
-        align-items: center;
+        align-self: end;
     }
     .nav-bar .humberger i {
         color: white;
