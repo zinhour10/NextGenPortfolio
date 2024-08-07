@@ -20,13 +20,24 @@ body{
 }
 @media only screen and (max-width: 768px) {
     .content{
-        padding: 0 28px;
+        padding: 20px 28px;
     }
     .profile {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+    }
+    .profile_img{
+        background-color: #FFCCB2;
+        padding: 0 40px;
+        border-radius: 120px 10px;
+        overflow: hidden;
+    }
+    .profile_img img{
+        height: 350px;
+        position: relative;
+        top: 5px;
     }
     .detail h1{
         color: #FFCCB2;
