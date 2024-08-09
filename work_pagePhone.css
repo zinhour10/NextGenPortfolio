@@ -120,7 +120,11 @@ body{
         justify-content: end;
         align-items: center;
     }
-    .main-part h1, .tech h1{
+    .tech h1{
+        color: #FFCCB2;
+        font-weight: normal;
+    }
+    .main-part h1{
         color: #025A4E;
         font-weight: normal;
     }
