@@ -1,16 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Bebas Neue", sans-serif;
-}
-.humberger {
-  display: none;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
   body {
     margin: 20px;
     background-color: #7c8c8c;
@@ -32,7 +20,7 @@
     padding: 5px 50px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: rgb(18, 91, 118);
+    color: black;
   }
 
   a {
@@ -76,7 +64,7 @@
     background-color: #d9d9d9;
     padding: 15px;
     border-radius: 20px;
-    max-width: 650px;
+    max-width: 750px;
   }
 
   .card h1 {
@@ -150,10 +138,11 @@
     align-items: center;
     background-color: #e5dfcf;
     justify-content: center;
+
     color: #025a4e;
     border-radius: 20px;
     margin: 10px 30px;
-    max-width: 650px;
+    max-width: 750px;
   }
 
   .front-end p {
@@ -174,7 +163,7 @@
     margin-right: 25px;
     padding-bottom: 25px;
     background-color: #e5dfcf;
-    max-width: 650px;
+    max-width: 750px;
   }
 
   .skill h1 {
