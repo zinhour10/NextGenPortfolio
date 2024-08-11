@@ -1,15 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Bebas Neue", sans-serif;
-}
-.humberger {
-  display: none;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
   body {
     margin: 20px;
     background-color: #7c8c8c;
@@ -20,6 +9,7 @@
     display: flex;
     justify-content: center;
   }
+
   .nav-bar ul {
     list-style-type: none;
     display: flex;
@@ -31,7 +21,7 @@
     padding: 5px 50px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: rgb(18, 91, 118);
+    color: #025a4e;
   }
 
   a {
@@ -43,6 +33,7 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
+    padding: 0 100px;
     align-items: center;
   }
 
@@ -55,6 +46,7 @@
     margin-right: 30px;
     width: 300px;
     height: 400px;
+    max-width: 500px;
   }
 
   .d1,
@@ -63,6 +55,15 @@
     margin-top: 20px;
     text-wrap: wrap;
     font-size: 1.5rem;
+    max-width: 1000px;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .d2 > h1,
