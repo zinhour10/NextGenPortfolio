@@ -1,12 +1,8 @@
-
-function myFunction() {
-  var x = document.getElementById("navlist");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+$(document).ready(function () {
+  $(".icon.humberger").on("click", function () {
+    $("#navlist").toggleClass("show");
+  });
+});
 
 // $(document).ready(function() {
 //     $("#toggleButton").click(function() {

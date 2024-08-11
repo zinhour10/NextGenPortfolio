@@ -4,25 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NextGen</title>
+    <link rel="shortcut icon" type="x-icon"
+        href="https://th.bing.com/th?q=Free+Downloadable+Facebook+Logo&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.2&pid=InlineBlock&mkt=en-WW&cc=KH&setlang=en&adlt=strict&t=1&mw=247">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="mobile_nav.css">
     <link rel="stylesheet" href="phone_footer.css">
     <link rel="stylesheet" href="contact_phone.css">
     <script src="navbar.js"></script>
-
 </head>
 
 <body>
     <div class="nav-bar">
         <ul id="navlist">
             <li><a href="work_page.html">Work</a></li>
-            <li><a href="profile.html">About</a></li>
-            <li><a href="">Play</a></li>
-            <li><a href="">Note</a></li>
+            <li><a href="index.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
         <a class="icon humberger" onclick="myFunction()">
@@ -36,35 +37,39 @@
     <div class="content">
         <form action="">
             <div class="name-input">
-                <div class="fullname">
-                    <label for="">First Name</label>
-                    <input type="text" placeholder="First Name">
+                <div class="surname fullname">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" placeholder=" FirstName ">
                 </div>
-                <div class="fullname">
-                    <label for="">Last Name</label>
-                    <input type="text" placeholder="Last Name">
+                <div class="surname fullname">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" placeholder=" Lastname">
                 </div>
             </div>
 
             <div class="email">
-                <label for="">Email</label>
-                <input type="email" placeholder="Email@example.com">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email@example.com">
             </div>
 
             <div class="p-number">
                 <label for="">Phone Number</label>
-                <input type="text" placeholder="+12332132312">
+                <input type="text" id="p-number" placeholder="+12332132312">
             </div>
+
             <div class="message">
-                <label for="">Message</label>
-                <textarea> </textarea>
+                <label for="message">Message</label>
+                <textarea id="message"> </textarea>
             </div>
-            <div class="check">
+
+
+            <div class="checkbox">
                 <input type="checkbox">
                 <p>You agree to your friendly privacy policy</p>
             </div>
 
-            <div class="btn">Send Message</div>
+            <button id="btn">send message</button>
+
 
 
         </form>
@@ -72,6 +77,7 @@
     <footer>
         <div class="footer">
             <div class="media-logo">
+
                 <span><i class="fa-brands fa-facebook"></i></span>
                 <span><i class="fa-brands fa-instagram"></i></span>
                 <span><i class="fa-brands fa-square-twitter"></i></span>

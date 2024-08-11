@@ -1,8 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
 }
 .humberger {
   display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 20px;
+    background-color: #7c8c8c;
+    color: #ffccb2;
+  }
+
+  .nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 0 100px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .profile {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .profile > .detail {
+    font-size: 2rem;
+  }
+
+  #img {
+   margin-left: 10px;
+    margin-right: 30px;
+    width: 300px;
+    height: 400px;
+  }
+
+  .d1,
+  .d2,
+  .d3 {
+    margin-top: 20px;
+    text-wrap: wrap;
+    font-size: 1.5rem;
+  }
+
+  .d2 > h1,
+  .d3 > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    margin-top: 100px;
+    border-top: 2px solid black;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .media-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    font-size: 2rem;
+  }
+
+  .copyright {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .profile_img {
+    background-color: rgb(187, 156, 130);
+    border-radius: 120px 10px;
+    height: 400px;
+    overflow: hidden;
+  }
 }

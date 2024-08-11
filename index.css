@@ -1,10 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
 }
 .humberger {
   
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 20px;
+    background-color: #7c8c8c;
+    color: #ffccb2;
+  }
+  .nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 0 100px;
+  }
 
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .header {
+    margin-top: 50px;
+    text-align: center;
+    text-wrap: balance;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .header p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  .team > h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .card1,
+  .card2 {
+    width: 662px;
+    height: 257px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card-img {
+    margin-top: 17px;
+    width: 143.31px;
+    height: 222.22px;
+    background-color: #a3dcd4;
+    border-radius: 10px;
+  }
+
+  .card-description {
+    margin-top: 15px;
+    color: black;
+    position: relative;
+  }
+
+  .card-description > h1 {
+    font-size: 2.5rem;
+  }
+  .card-description > p {
+    font-size: 1.2rem;
+  }
+
+  .btn > a {
+    background-color: #7be36a;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+  }
+  .card1 > .card-description > .btn {
+    position: absolute;
+    right: -30px;
+    bottom: 15px;
+    padding: 10px;
+    border: none;
+  }
+
+  .card2 > .card-description > .btn {
+    position: absolute;
+    left: -20px;
+    bottom: 15px;
+    padding: 10px;
+    border: none;
+  }
+
+  .card3 {
+    width: 662px;
+    height: 257px;
+    background-color: #e5dfcf;
+    border-radius: 10px;
+    color: #025a4e;
+    text-wrap: balance;
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  .card3 > h1 {
+    font-size: 2.5rem;
+  }
+
+  .card3 > p {
+    font-size: 1.2rem;
+  }
+
+  .card3 > .btn {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    padding: 10px 20px;
+  }
+
+  .work1 {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-work > .work1 h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .work-description {
+    margin-left: 100px;
+  }
+
+  .work-description h1 {
+    margin-top: 20px;
+  }
+
+  .work-description .box {
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .work-description .box > button {
+    background-color: #142850;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .work-description > p {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    margin-top: 20px;
+    border-top: 2px solid black;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .media-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    font-size: 2rem;
+  }
+
+  .copyright {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}

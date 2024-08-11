@@ -1,71 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 /* unvisited link */
 a {
-    color: inherit;
-    text-decoration: none;
-    cursor: default;
-    outline: none;
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
 }
 a:hover,
 a:focus,
 a:active {
-    color: inherit;
-    text-decoration: none;
-    outline: none;
+  color: inherit;
+  text-decoration: none;
+  outline: none;
 }
 
-body{
-    background-color: #7C8C8C;
+body {
+  background-color: #7c8c8c;
 }
 @media only screen and (max-width: 768px) {
-    .content{
-        padding: 0 28px;
-    }
-    .profile {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    .detail h1{
-        color: #FFCCB2;
-        font-size: 36px;
-        font-family: "Open Sans", sans-serif;
-        font-style: italic;
-        font-weight: 800;
-        text-align: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+  .content {
+    padding: 20px 28px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_img {
+    background-color: #ffccb2;
+    padding: 0 40px;
+    border-radius: 120px 10px;
+    overflow: hidden;
+  }
+  .profile_img img {
+    height: 350px;
+    position: relative;
+    top: 5px;
+  }
+  .detail h1 {
+    color: #ffccb2;
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 
-    .detail h4{
-        color: #FFE4D5;
-        font-size: 32px;
-        font-family: "Open Sans", sans-serif;
-        font-style: italic;
-        font-weight: 800;
-        text-align: center;
-        margin-bottom: 64px;
-    }
-    .d1 h1, .d2 h1, .d3 h1{
-        color: #FFCCB2;
-        font-family: "Bebas Neue", sans-serif;
-        font-size: 36px;
-        text-align: center;
-        font-weight: normal;
-        margin: 20px 0;
-    }
+  .detail h4 {
+    color: #ffe4d5;
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  .d1 h1,
+  .d2 h1,
+  .d3 h1 {
+    color: #ffccb2;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: normal;
+    margin: 20px 0;
+  }
 
+  .d1 p,
+  .d2 p,
+  .d3 p {
+    color: #ffe4d5;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+  }
+  footer {
+    margin-top: 20px;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* unvisited link */
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+}
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
 
-    .d1 p, .d2 p, .d3 p{
-        color: #FFE4D5;
-        font-family: "Bebas Neue", sans-serif;
-        font-size: 20px;
-    }
-    footer {
-        margin-top: 20px;
-    }
+body {
+  background-color: #7c8c8c;
+}
+@media only screen and (max-width: 768px) {
+  .content {
+    padding: 0 28px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .detail h1 {
+    color: #ffccb2;
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 
+  .detail h4 {
+    color: #ffe4d5;
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  .d1 h1,
+  .d2 h1,
+  .d3 h1 {
+    color: #ffccb2;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: normal;
+    margin: 20px 0;
+  }
 
+  .d1 p,
+  .d2 p,
+  .d3 p {
+    color: #ffe4d5;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+  }
+  footer {
+    margin-top: 20px;
+  }
 }
