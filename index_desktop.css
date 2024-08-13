@@ -20,7 +20,7 @@ body{
     }
     .header h1{
         color: #FFCCB2;
-        font-size: 3.5vw;
+        font-size: clamp(16px, 3.5vw, 70px);
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         font-weight: 800;
@@ -30,7 +30,7 @@ body{
     }
     .header p{
         color: #FFE4D5;
-        font-size: 2vw;
+        font-size: clamp(16px, 2vw, 50px);
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         font-weight: 800;
@@ -40,7 +40,7 @@ body{
 
     .team h1{
         font-family: "Bebas Neue", sans-serif;
-        font-size: 36px;
+        font-size: clamp(16px, 2vw, 50px);
         font-weight: normal;
         text-align: center;
         color: #FFCCB2;
@@ -56,16 +56,16 @@ body{
     }
 
     .card{
-        max-width: 1200px;
+        max-width: 1800px;
         display: flex;
         flex-direction: row;
         border-radius: 20px;
         background-color: #E5DFCF;
         padding: 20px 28px;
-        box-sizing: border-box; /* Added to include padding in the total width */
+        box-sizing: border-box;
     }
     .card .card-img img{
-        width: 200px;
+        width: clamp(200px, 16.67vw, 320px);
         background-color: #7C8C8C;
         border-radius: 20px;
     }
@@ -102,6 +102,8 @@ body{
         background-color: #FFF3B2;
         border-radius: 20px;
         padding: 18px 32px;
+        margin-top: auto; 
+        align-self: flex-end;
     }
     .card2{
         justify-content: space-between;

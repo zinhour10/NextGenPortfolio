@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Palanquin+Dark:wght@400;500;600;700&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #7C8C8C;
     box-sizing: border-box;
@@ -21,7 +24,7 @@ body{
     }
     .header h1{
         color: #FFCCB2;
-        font-size: 3.5vw;
+        font-size: clamp(16px, 3.5vw, 70px);
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         font-weight: 800;
@@ -31,7 +34,7 @@ body{
     }
     .header p{
         color: #FFE4D5;
-        font-size: 2vw;
+        font-size: clamp(16px, 2vw, 50px);
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         font-weight: 800;
@@ -56,14 +59,14 @@ body{
     .project-part h1{
         font-family: "Bebas Neue", sans-serif;
         color: #FFCCB2;
-        font-size: 3.5vw;
+        font-size: clamp(16px, 3.5vw, 70px);
         font-weight: normal;
         text-align: center;
     }
     .project-part p{
         font-family: "Bebas Neue", sans-serif;
         color: #FFCCB2;
-        font-size: 2.5vw;
+        font-size: clamp(16px, 2.5vw, 50px);
         font-weight: normal;
         text-align: center;
     }
@@ -99,6 +102,12 @@ body{
         width: 100%;
       
     }
+    .tech h1{
+        font-size: clamp(16px, 3.5vw, 70px);
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
     .tech{
         font-family: "Bebas Neue", sans-serif;
@@ -130,6 +139,37 @@ body{
         width: 140px;
         background-color: #E5DFCF;
     }
+
+    /* .tech{
+        font-family: "Bebas Neue", sans-serif;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tech .item{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 20px;
+        overflow-x: auto;
+    }
+    .tech .item::-webkit-scrollbar{
+        display: none;
+    }
+    .item1, .item2, .item3{
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: row;
+        font-size: 42px;
+        border: 1px solid black;
+        align-items: center;
+        border-radius: 40px;
+        min-width: 200px;
+        gap: 0 4px;
+        background-color: #E5DFCF;
+    } */
+
 
 
     /* main-part */
