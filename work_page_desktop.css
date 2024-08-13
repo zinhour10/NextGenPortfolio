@@ -1,62 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Palanquin+Dark:wght@400;500;600;700&display=swap');
 
 body{
     background-color: #7C8C8C;
+    box-sizing: border-box;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1200px) {
+    body{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    /* Header */
     .header {
-        padding: 0 50px;
+        margin-top: 50px;
+        padding: 0 100px;
+        max-width: 1800px;
     }
     .header h1{
         color: #FFCCB2;
-        font-size: 36px;
+        font-size: 3.5vw;
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         font-weight: 800;
         text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
     }
     .header p{
         color: #FFE4D5;
-        font-size: 16px;
+        font-size: 2vw;
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         font-weight: 800;
         text-align: center;
+        margin: 0; /* Added margin to avoid extra spacing */
+    }
+
+    .project-part {
+        max-width: 1800px;
+        overflow: hidden;
+    }
+    .card{
+        overflow: hidden;
     }
     .project-part{
         padding: 0 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* width: calc(100%-50px); */
     } 
 
     .project-part h1{
         font-family: "Bebas Neue", sans-serif;
         color: #FFCCB2;
-        font-size: 36px;
+        font-size: 3.5vw;
+        font-weight: normal;
+        text-align: center;
+    }
+    .project-part p{
+        font-family: "Bebas Neue", sans-serif;
+        color: #FFCCB2;
+        font-size: 2.5vw;
         font-weight: normal;
         text-align: center;
     }
 
     .card {
-        width: 100%;
         border-radius: 20px;
         border: 1px solid black;
-        max-width: 500px;
-        overflow: hidden;
     }
 
     .card .description{
-        padding: 20px 20px;
+        padding: 0 20px;
+        margin-bottom: 20px;
     }
 
     .card p{
         font-family: "Bebas Neue", sans-serif;
-        font-size: 16px;
+        font-size: 24px;
         color: #A29A89;
     }
  
@@ -64,18 +88,16 @@ body{
         font-family: "Bebas Neue", sans-serif;
         color: #FFCCB2;
         font-size: 32px;
-        font-weight: normal;  
-
+        font-weight: normal;     
     }
 
     .card .project-img{
-        width: 100%;
-        
+        position: relative;
+        top: 20px;
     }
     .card .project-img img{
         width: 100%;
-        position: relative;
-        top: 5px;
+      
     }
 
     .tech{
@@ -84,7 +106,6 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 20px;
     }
     .tech .item{
         display: flex;
@@ -116,22 +137,23 @@ body{
         font-family: "Bebas Neue", sans-serif;
         padding: 0 20px;
         display: flex;
-        flex-direction: column;
-        justify-content: end;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        gap: 0 1em;
+        margin-top: 20px;
+        max-width: 1800px;
     }
-    .tech h1{
-        color: #FFCCB2;
-        font-weight: normal;
-    }
-    .main-part h1{
+    .main-part h1, .tech h1{
         color: #025A4E;
         font-weight: normal;
     }
     .main-part .mainCard{
         border-radius: 20px;
         border: 1px solid black;
-        max-width: 500px;
+        max-width: 672px;
+        height: 350px;
         padding: 0 20px;
         margin-bottom: 20px;
         background-color: #E5DFCF;
@@ -151,21 +173,14 @@ body{
         margin-bottom: 12px;
     }
 
-    body{
-        display: flex;
-        flex-direction: column;
-    }
     .skill {
-        max-width: 500px;
-        align-self: center;
-        justify-self: center;
+        max-width: 672px;
         padding: 0 19px 60px 19px;
         border: 1px solid black;
         border-radius: 20px;
         margin-bottom: 60px;
         background-color: #E5DFCF;
-        margin-right: 20px;
-        margin-left: 20px;
+        
     }
 
     .skill_header{

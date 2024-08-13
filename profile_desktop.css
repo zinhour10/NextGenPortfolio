@@ -17,31 +17,41 @@ a:active {
 
 body{
     background-color: #7C8C8C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1200px) {
     .content{
-        padding: 20px 28px;
+        padding: 20px 50px;
+        max-width: 1800px;
     }
     .profile {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        gap: 0 20px;
+        margin-bottom: 20px;
     }
     .profile_img{
         background-color: #FFCCB2;
         padding: 0 40px;
         border-radius: 120px 10px;
         overflow: hidden;
+        width: 30%;
     }
     .profile_img img{
-        height: 350px;
         position: relative;
+        width: 100%;
         top: 5px;
+        /* width: calc(100%-20%); */
+        
     }
     .detail h1{
         color: #FFCCB2;
-        font-size: 36px;
+        font-size: 3em;
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         font-weight: 800;
@@ -52,7 +62,7 @@ body{
 
     .detail h4{
         color: #FFE4D5;
-        font-size: 32px;
+        font-size: 2em;
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         font-weight: 800;
@@ -62,7 +72,7 @@ body{
     .d1 h1, .d2 h1, .d3 h1{
         color: #FFCCB2;
         font-family: "Bebas Neue", sans-serif;
-        font-size: 36px;
+        font-size: 2em;
         text-align: center;
         font-weight: normal;
         margin: 20px 0;
@@ -72,7 +82,7 @@ body{
     .d1 p, .d2 p, .d3 p{
         color: #FFE4D5;
         font-family: "Bebas Neue", sans-serif;
-        font-size: 20px;
+        font-size: 1.5em;
     }
     footer {
         margin-top: 20px;
