@@ -58,7 +58,7 @@ body{
 
     .project-part h1{
         font-family: "Bebas Neue", sans-serif;
-        color: #FFCCB2;
+        color: #025a4e;
         font-size: clamp(16px, 3.5vw, 70px);
         font-weight: normal;
         text-align: center;
@@ -74,6 +74,7 @@ body{
     .card {
         border-radius: 20px;
         border: 1px solid black;
+        background-color: #d9d9d9;
     }
 
     .card .description{
