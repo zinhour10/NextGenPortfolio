@@ -7,6 +7,7 @@ body{
     box-sizing: border-box;
 }
 
+
 @media only screen and (min-width: 1200px) {
     body{
        display: flex;
@@ -22,7 +23,7 @@ body{
         color: #FFCCB2;
         font-size: clamp(16px, 3.5vw, 70px);
         font-family: "Open Sans", sans-serif;
-        font-style: italic;
+        /* font-style: italic; */
         font-weight: 800;
         text-align: center;
         margin: 0;
@@ -31,16 +32,18 @@ body{
     .header p{
         color: #FFE4D5;
         font-size: clamp(16px, 2vw, 50px);
-        font-family: "Open Sans", sans-serif;
-        font-style: italic;
-        font-weight: 800;
+        /* font-family: "Open Sans", sans-serif; */
+        font-family: "Bebas Neue", sans-serif;
+        /* font-style: italic; */
+        /* font-style: normal; */
+        font-weight: normal;
         text-align: center;
         margin: 0; /* Added margin to avoid extra spacing */
     }
 
     .team h1{
         font-family: "Bebas Neue", sans-serif;
-        font-size: clamp(16px, 2vw, 50px);
+        font-size: clamp(16px, 3.5em, 50px);
         font-weight: normal;
         text-align: center;
         color: #FFCCB2;
@@ -84,12 +87,13 @@ body{
 
     .card .card-description h1{
         font-size: clamp(50px, 3.5rem, 100px);
-        font-family: "Palanquin Dark", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-weight: 900;
         margin: 0 0px 32px 0;
         padding-left: 0;
         display: flex;
         justify-content: flex-start;
+        color: #7C8C8C;
     }
     .card-description p{
         font-size:clamp(40px, 2em, 60px);
@@ -124,7 +128,7 @@ body{
     .card3 h1{
         font-size: 50px;
         font-family: "Bebas Neue", sans-serif;
-        color: #000;
+        color: #7C8C8C;
         margin: 0 0px 32px 0;
         padding-left: 0;
         display: flex;
