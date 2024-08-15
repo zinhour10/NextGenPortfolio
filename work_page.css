@@ -18,6 +18,7 @@
   }
 
   .nav-bar {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
   }
@@ -28,11 +29,11 @@
     gap: 100px;
     font-size: 1.5rem;
     width: fit-content;
-    background: linear-gradient(135deg, #f0f0f0, #d1d1d1);
+    background-color: #F5F3EF;
     padding: 5px 50px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: rgb(18, 91, 118);
+    color: #025a4e;
   }
 
   a {
@@ -41,7 +42,6 @@
   }
 
   .header {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,8 +170,8 @@
     background-color: white;
     align-items: center;
     border-radius: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 25px;
     background-color: #e5dfcf;
     max-width: 650px;

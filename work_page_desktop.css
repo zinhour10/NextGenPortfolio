@@ -191,6 +191,7 @@ body{
         font-weight: normal;
     }
     .main-part .mainCard{
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
         border-radius: 20px;
         border: 1px solid black;
         max-width: 672px;

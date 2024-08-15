@@ -136,6 +136,7 @@ body{
         margin-bottom: 20px;
         background-color: #E5DFCF;
         padding-bottom: 20px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 
     }
     .main-part .mainCard .card_header_text{
@@ -156,6 +157,7 @@ body{
         flex-direction: column;
     }
     .skill {
+        
         max-width: 500px;
         align-self: center;
         justify-self: center;
@@ -166,6 +168,7 @@ body{
         background-color: #E5DFCF;
         margin-right: 20px;
         margin-left: 20px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
     }
 
     .skill_header{
