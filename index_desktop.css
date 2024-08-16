@@ -27,8 +27,8 @@ body {
     }
     .header h1{
         color: #2c2c2c;
-        font-size: clamp(16px, 3.5vw, 70px);
-        font-family: "Lora", sans-serif;
+        font-size: clamp(16px, 4vw, 120px);
+        font-family: "Bebas Neue", sans-serif;
         /* font-style: italic; */
         font-weight: 800;
         text-align: center;
@@ -38,19 +38,16 @@ body {
     .header p{
         color: #595959;
         font-size: clamp(16px, 2vw, 50px);
-        /* font-family: "Open Sans", sans-serif; */
-        font-family: "Bebas Neue", sans-serif;  
-        /* font-style: italic; */
-        /* font-style: normal; */
+        font-family: "Roboto Slab", serif;
         font-weight: normal;
         text-align: center;
         margin: 0; 
     }
 
     .team h1{
-        font-family: "Lora", sans-serif;
+        font-family: "Bebas Neue", sans-serif;
         font-size: clamp(16px, 3.5em, 50px);
-        font-weight: 700;
+        font-weight: normal;
         text-align: center;
         color: #2c2c2c;
         margin: 20px 0 20px 0;
@@ -102,6 +99,7 @@ body {
         color: #3a3a3a;
     }
     .card-description p{
+        font-family: "Roboto Slab", serif;
         font-size:clamp(40px, 2em, 60px);
         margin: 0;
         color: #2c2c2c;
@@ -146,7 +144,7 @@ body {
     }
     .card3 p{
         font-size: 40px;
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Roboto Slab", serif;
         margin: 0 0px 32px 0;
         padding-left: 0;
         display: flex;

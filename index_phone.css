@@ -26,20 +26,20 @@ body{
     }
     .header h1{
         color: #2c2c2c;
-        font-family: "Lora", sans-serif;
+        font-family: "Bebas Neue", sans-serif;
         font-size: 36px;
         font-weight: 800;
         text-align: center;
     }
     .header p{
         color: #595959;
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Roboto Slab", serif;
         font-size: 16px;
         text-align: center;
     }
 
     .team h1{
-        font-family: "Lora", sans-serif;
+        font-family: "Bebas Neue", sans-serif;
         color: #2c2c2c;
         font-size: 28px;
         font-weight: 700;
@@ -94,7 +94,7 @@ body{
     }
     .card-description p{
         color: #2c2c2c;
-        font-family: "Lora", sans-serif;
+        font-family: "Roboto Slab", serif;
         font-size: 12px;
         margin-bottom: 28px;
     }
@@ -122,7 +122,7 @@ body{
     }
 
     .card3 p{
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Roboto Slab", serif;
         color: #2c2c2c;
         font-size: 12px;
     }
@@ -145,17 +145,16 @@ body{
 
     .card3 .btn2 {
         padding: 8px 20px;
-        background-color: #7BE36A;
         border-radius: 20px;
-        font-family: "Bebas Neue", sans-serif;
-        color: white; 
         width: 80px;
         align-self: flex-end;
+        text-align: center;
         margin-top: 12px;
     }
     .card3 .btn2 a{
         font-family: "Bebas Neue", sans-serif;
         text-align: center;    
+
         
     }
     .footer {

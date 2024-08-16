@@ -19,14 +19,14 @@ body{
     .header h1{
         color: #2c2c2c;
         font-size: 36px;
-        font-family: "Archivo Black", sans-serif;
+        font-family: "Bebas Neue", sans-serif;
         font-weight: 800;
         text-align: center;
     }
     .header p{
         color: #666;
         font-size: 16px;
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Roboto Slab", serif;
         font-weight: normal;
         text-align: center;
     }
@@ -39,7 +39,7 @@ body{
     } 
 
     .project-part h1{
-        font-family: "Archivo Black", sans-serif;
+        font-family: "Bebas Neue", sans-serif;
         color: #2c2c2c;
         font-size: 36px;
         font-weight: normal;
@@ -60,7 +60,7 @@ body{
     }
 
     .card p{
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Roboto Slab", serif;
         font-size: 16px;
         color: #333;
     }
@@ -148,6 +148,7 @@ body{
         text-align: center;
     }
     .main-part .mainCard .card_description{
+        font-family: "Roboto Slab", serif;
         text-align: center;
     }
     .main-part .mainCard .img{

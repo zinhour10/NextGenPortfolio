@@ -52,7 +52,7 @@
   .header h1 {
     font-size: 4rem;
     color: #2c2c2c;
-    font-family:"Archivo Black", sans-serif;
+    font-family: "Roboto Slab", serif;    
     font-weight: 800;
   }
 
@@ -61,6 +61,7 @@
     font-size: 1.5rem;
     max-width: 600px;
     color: #666;
+    font-family: "Roboto Slab", serif;
   }
 
   .project-part {
@@ -71,7 +72,7 @@
   }
 
   .project-part > h1 {
-    font-family: 'Archivo Black', serif;
+    font-family: "Roboto Slab", serif;
         font-size: 3rem;
         color: #2c2c2c;
   }
@@ -87,17 +88,18 @@
   .card .description {
     padding: 0 20px;
     margin-bottom: 20px;
+      font-family: "Roboto Slab", serif;
 }
   .card h1 {
     color: #333; 
-        font-family: 'Archivo Black', serif;
-        text-align: center;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
   }
 
   .card p {
     color: #333; 
-        font-family: 'Lora', serif;
-        margin-bottom: 8px;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 8px;
   }
 
   .project-img {

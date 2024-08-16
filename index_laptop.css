@@ -50,7 +50,7 @@
   .header h1 {
     color: #2c2c2c;
     font-size: clamp(16px, 3vw, 50px);
-    font-family: "Lora", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 800;
     margin: 0;
     margin-bottom: 20px;
@@ -59,13 +59,13 @@
   .header p {
     color: #595959;
     font-size: clamp(16px, 2vw, 40px);
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Roboto Slab", serif;
     font-weight: normal;
     margin: 0;
   }
 
   .team > h1 {
-    font-family: "Lora", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: clamp(16px, 2.5em, 40px);
     font-weight: 700;
     text-align: center;
@@ -123,6 +123,7 @@
     font-size: clamp(30px, 1.8em, 50px);
     margin: 0;
     color: #2c2c2c;
+    font-family: "Roboto Slab", serif;
   }
 
   .btn {
@@ -164,7 +165,7 @@
 
   .card3 p {
     font-size: 30px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Roboto Slab", serif;
     margin: 0;
     color: #2c2c2c;
   }
