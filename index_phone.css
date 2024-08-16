@@ -33,7 +33,7 @@ body{
     }
     .header p{
         color: #595959;
-        font-family: "Roboto Slab", serif;
+        font-family: "Poppins", sans-serif !important;
         font-size: 16px;
         text-align: center;
     }
@@ -94,7 +94,7 @@ body{
     }
     .card-description p{
         color: #2c2c2c;
-        font-family: "Roboto Slab", serif;
+        font-family: "Poppins", sans-serif !important;
         font-size: 12px;
         margin-bottom: 28px;
     }
@@ -122,7 +122,7 @@ body{
     }
 
     .card3 p{
-        font-family: "Roboto Slab", serif;
+        font-family: "Poppins", sans-serif !important;
         color: #2c2c2c;
         font-size: 12px;
     }
@@ -163,7 +163,7 @@ body{
     }
     
     .footer .copyright {
-        font-family: "Lora", sans-serif;
+        font-family: "Poppins", sans-serif !important;
         color: #595959;
     }
 }

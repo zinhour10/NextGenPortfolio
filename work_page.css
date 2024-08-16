@@ -71,7 +71,7 @@
     font-size: 1.5em;
     max-width: 600px;
     color: #666;
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif !important;
   }
 
   .project-part {
@@ -109,7 +109,7 @@
 
   .card p {
     color: #333;
-    font-family: "Lora", serif;
+    font-family: "Poppins", sans-serif !important;
     margin-bottom: 8px;
   }
 

@@ -194,7 +194,7 @@ body {
     }
 
     .front-end p {
-        font-family: "Roboto Slab", serif;
+        font-family: "Poppins", sans-serif !important;
         padding: 15px;
         font-size: 1.2rem;
         text-align: center;
