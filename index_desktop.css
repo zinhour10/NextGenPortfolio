@@ -44,7 +44,7 @@ body {
         /* font-style: normal; */
         font-weight: normal;
         text-align: center;
-        margin: 0; /* Added margin to avoid extra spacing */
+        margin: 0; 
     }
 
     .team h1{
@@ -53,7 +53,7 @@ body {
         font-weight: 700;
         text-align: center;
         color: #2c2c2c;
-        margin: 20px 0 20px 0; /* Added margin to avoid extra spacing */
+        margin: 20px 0 20px 0;
     }
     
     .team{

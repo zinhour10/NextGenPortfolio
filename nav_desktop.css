@@ -95,6 +95,7 @@ body {
         font-family: 'Montserrat', sans-serif;
         width: 50%;
         max-width: 1500px;
+        min-width: 1000px;
         padding: 20px 100px;
     
     }
