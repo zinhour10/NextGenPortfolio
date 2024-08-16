@@ -93,14 +93,15 @@ body {
     }
     .nav-bar{
         font-family: 'Montserrat', sans-serif;
-        width: 100vw;
-        max-width: 1800px;
+        width: 50%;
+        max-width: 1500px;
         padding: 20px 100px;
+    
     }
     #navlist {
         display: flex;
         flex-direction: row;
-        font-size: 2vw;
+        font-size: 2em;
         list-style-type: none;
         justify-content: space-around;
         padding: 20px 100px;

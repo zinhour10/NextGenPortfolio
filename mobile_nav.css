@@ -13,9 +13,9 @@ a:active {
 }
 @media only screen and (max-width: 768px) {
 
-        #navlist.show {
-            display: block;
-        }
+    #navlist.show {
+        display: block;
+    }
     .nav-bar {
         position: sticky;
         position: -webkit-sticky;
@@ -26,14 +26,14 @@ a:active {
         align-items: center;
         justify-content: end;
         box-sizing: border-box; 
-        background-color: #7C8C8C;
+        background-color: #e1e1e1;
         flex-direction: column-reverse;
     }
     .nav-bar ul {
         display: none;
         list-style-type: none;
         font-size: 32px;
-        color: #FFCCB2;
+        color: #2c2c2c;
     }
     .nav-bar .humberger {
         display: flex;
@@ -43,7 +43,7 @@ a:active {
         padding: 8px 20px;
     }
     .nav-bar .humberger i {
-        color: white;
+        color: #2c2c2c;
         font-size: 28px;
     }     
 }
