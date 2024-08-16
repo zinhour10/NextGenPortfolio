@@ -6,6 +6,12 @@
 body{
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    background-color: #f5f5f5; /* Light grey */
+    font-family: 'Lora', serif; /* Body font */
+}
 
 
 @media only screen and (min-width: 1200px) {
@@ -20,9 +26,9 @@ body{
         max-width: 1800px;
     }
     .header h1{
-        color: #222831;
+        color: #2c2c2c;
         font-size: clamp(16px, 3.5vw, 70px);
-        font-family: "Oswald", sans-serif;
+        font-family: "Lora", sans-serif;
         /* font-style: italic; */
         font-weight: 800;
         text-align: center;
@@ -30,7 +36,7 @@ body{
         margin-bottom: 20px;
     }
     .header p{
-        color: #393E46;
+        color: #595959;
         font-size: clamp(16px, 2vw, 50px);
         /* font-family: "Open Sans", sans-serif; */
         font-family: "Bebas Neue", sans-serif;  
@@ -42,11 +48,11 @@ body{
     }
 
     .team h1{
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Lora", sans-serif;
         font-size: clamp(16px, 3.5em, 50px);
-        font-weight: normal;
+        font-weight: 700;
         text-align: center;
-        color: #222831;
+        color: #2c2c2c;
         margin: 20px 0 20px 0; /* Added margin to avoid extra spacing */
     }
     
@@ -59,18 +65,18 @@ body{
     }
 
     .card{
-        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
         max-width: 1800px;
         display: flex;
         flex-direction: row;
         border-radius: 20px;
-        background-color: rgba(57, 62, 70);
+        background-color: #e8e8e8;
         padding: 20px 28px;
         box-sizing: border-box;
     }
     .card .card-img img{
         width: clamp(200px, 16.67vw, 320px);
-        background-color: rgba(0, 173, 181, 0.6);
+        background-color: #d1d1d1;
         border-radius: 20px;
     }
     .card .card-img {
@@ -87,29 +93,32 @@ body{
 
     .card .card-description h1{
         font-size: clamp(50px, 3.5rem, 100px);
-        font-family: "Oswald", sans-serif;
+        font-family: "Bebas Neue", sans-serif;
         font-weight: 900;
         margin: 0 0px 32px 0;
         padding-left: 0;
         display: flex;
         justify-content: flex-start;
-        color: rgba(0, 173, 181, 1);
+        color: #3a3a3a;
     }
     .card-description p{
         font-size:clamp(40px, 2em, 60px);
         margin: 0;
-        color: #EEEEEE;
+        color: #2c2c2c;
     }
     .btn {
         justify-self: flex-end;
         align-self: flex-end;
         font-size: 40px;
         margin-top: 45px;
-        background-color: rgba(0, 173, 181);
+        background-color: #f5f5f5;
         border-radius: 20px;
         padding: 18px 32px;
         margin-top: auto; 
         align-self: flex-end;
+    }
+    .btn:hover {
+        background-color: #2c2c2c;
     }
     .card2{
         justify-content: space-between;
@@ -129,7 +138,7 @@ body{
     .card3 h1{
         font-size: 50px;
         font-family: "Bebas Neue", sans-serif;
-        color: rgba(0, 173, 181);
+        color: #3a3a3a;
         margin: 0 0px 32px 0;
         padding-left: 0;
         display: flex;
@@ -142,6 +151,6 @@ body{
         padding-left: 0;
         display: flex;
         justify-content: flex-start;
-        color: rgba(238, 238, 238);
+        color: #2c2c2c;
     }
 }

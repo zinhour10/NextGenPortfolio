@@ -1,8 +1,15 @@
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
+  *{
+    padding: 0;
+    margin: 0;
+  }
   body {
-    margin: 20px;
-    background-color: #7c8c8c;
-    color: #ffccb2;
+    background-color: #f5f5f5; /* Light grey */
+    color: #2c2c2c;
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .nav-bar {
@@ -10,6 +17,7 @@
     display: flex;
     justify-content: center;
   }
+
   .nav-bar ul {
     list-style-type: none;
     display: flex;
@@ -18,13 +26,12 @@
     gap: 100px;
     font-size: 1.5rem;
     width: fit-content;
-    background-color: #F5F3EF;
-    /* background: linear-gradient(135deg, #f0f0f0, #d1d1d1); */
     padding: 5px 50px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* color: rgb(18, 91, 118); */
-    color: #025A4E;
+    font-family: "Bebas Neue", sans-serif;
+    color: #2c2c2c;
+    background-color: #e1e1e1;
   }
 
   a {
@@ -36,116 +43,130 @@
     margin-top: 50px;
     text-align: center;
     text-wrap: balance;
+    padding: 0 50px;
+    max-width: 1200px;
   }
 
   .header h1 {
-    font-size: 4rem;
+    color: #2c2c2c;
+    font-size: clamp(16px, 3vw, 50px);
+    font-family: "Lora", sans-serif;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 20px;
   }
 
   .header p {
-    margin-top: 10px;
-    font-size: 1.5rem;
+    color: #595959;
+    font-size: clamp(16px, 2vw, 40px);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    margin: 0;
   }
 
   .team > h1 {
-    margin-top: 20px;
-    font-size: 3rem;
+    font-family: "Lora", sans-serif;
+    font-size: clamp(16px, 2.5em, 40px);
+    font-weight: 700;
     text-align: center;
+    color: #2c2c2c;
+    margin: 20px 0 20px 0;
   }
 
   .team {
+    padding: 0 50px;
+    gap: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+    max-width: 1200px;
   }
 
-  .card1,
-  .card2 {
-    width: 662px;
-    height: 257px;
-    background-color: #d9d9d9;
-    border-radius: 10px;
+  .card {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
     display: flex;
-    justify-content: space-around;
-    
-  }
-
-  .card-img {
-    margin-top: 17px;
-    width: 143.31px;
-    height: 222.22px;
-    background-color: #a3dcd4;
-    border-radius: 10px;
-  }
-
-  .card-description {
-    margin-top: 15px;
-    color: black;
-    position: relative;
-  }
-
-  .card-description  h1 {
-    font-size: 2.5rem;
-    color: rgb(18, 91, 118);
-  }
-  .card-description  p {
-    font-size: 1.2rem;
-    color: rgb(18, 91, 118);
-   
-  }
-
-  .btn > a {
-    background-color: #7be36a;
-    padding: 10px;
-    font-size: 1rem;
+    flex-direction: row;
     border-radius: 20px;
-    color: white;
-    padding: 10px 20px;
-  }
-  .card1 > .card-description > .btn {
-    position: absolute;
-    right: -30px;
-    bottom: 15px;
-    padding: 10px;
-    border: none;
+    background-color: #e8e8e8;
+    padding: 20px 28px;
+    box-sizing: border-box;
   }
 
-  .card2 > .card-description > .btn {
-    position: absolute;
-    left: -20px;
-    bottom: 15px;
-    padding: 10px;
-    border: none;
+  .card .card-img img {
+    width: clamp(150px, 14vw, 250px);
+    background-color: #d1d1d1;
+    border-radius: 20px;
+  }
+
+  .card .card-img {
+    margin-right: 30px;
+  }
+
+  .card .card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: calc(100% - 150px - 30px);
+    box-sizing: border-box;
+  }
+
+  .card .card-description h1 {
+    font-size: clamp(40px, 3rem, 80px);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    margin: 0 0px 20px 0;
+    padding-left: 0;
+    color: #3a3a3a;
+  }
+
+  .card-description p {
+    font-size: clamp(30px, 1.8em, 50px);
+    margin: 0;
+    color: #2c2c2c;
+  }
+
+  .btn {
+    font-size: 30px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 12px 24px;
+    margin-top: auto;
+    align-self: flex-end;
+  }
+
+  .btn:hover {
+    background-color: #2c2c2c;
+  }
+
+  .card2 {
+    justify-content: space-between;
+  }
+
+  .card2 .card-img {
+    justify-self: flex-end;
+    margin-right: 0;
+  }
+
+  .card2 .btn {
+    align-self: flex-start;
   }
 
   .card3 {
-    width: 662px;
-    height: 257px;
-    background-color: #e5dfcf;
-    border-radius: 10px;
-    color: #025a4e;
-    text-wrap: balance;
-    text-align: start;
-    padding-left: 50px;
-    padding-top: 30px;
-    position: relative;
+    flex-direction: column;
   }
 
-  .card3 > h1 {
-    font-size: 2.5rem;
+  .card3 h1 {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #3a3a3a;
+    margin: 0 0px 20px 0;
   }
 
-  .card3 > p {
-    font-size: 1.2rem;
-  }
-
-  .card3 > .btn {
-    position: absolute;
-    right: 10px;
-    bottom: 15px;
-    padding: 10px 20px;
+  .card3 p {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    color: #2c2c2c;
   }
 
   .work1 {
@@ -156,7 +177,7 @@
   }
 
   .feature-work > .work1 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
   }
 
@@ -190,7 +211,6 @@
 
   footer {
     margin-top: 20px;
-    border-top: 2px solid black;
   }
 
   .footer {
