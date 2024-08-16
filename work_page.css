@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Palanquin+Dark:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Palanquin+Dark:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sulphur+Point:wght@300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -15,8 +16,8 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     background-color: #f5f5f5;
-    color: #333; 
-}
+    color: #333;
+  }
 
   .nav-bar {
     margin-top: 20px;
@@ -27,13 +28,21 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    align-items: center;
+    gap: 60px;
     font-size: 1.5rem;
     width: fit-content;
-    background-color: #e5dfcf;
-    padding: 5px 50px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Bebas Neue", sans-serif;
+    color: #2c2c2c;
+    background-color: #e1e1e1;
+  }
+
+  #navlist li a:hover {
+    text-decoration: underline;
+    transition: 0.5s all;
   }
 
   a {
@@ -42,6 +51,7 @@
   }
 
   .header {
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,16 +60,17 @@
   }
 
   .header h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #2c2c2c;
-    font-family:"Archivo Black", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 800;
   }
 
   .header p {
     margin-top: 10px;
-    font-size: 1.5rem;
-    max-width: 600px;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
+    max-width: 650px;
     color: #666;
   }
 
@@ -70,34 +81,41 @@
     margin: 25px;
   }
 
-  .project-part > h1 {
-    font-family: 'Archivo Black', serif;
-        font-size: 3rem;
-        color: #2c2c2c;
+  .project-part h1 {
+    margin-top: 10px;
+    font-family: "Bebas Neue", sans-serif !important;
+    font-size: 2rem;
+    color: #2c2c2c;
+    margin-bottom: 15px;
+  }
+
+  .project-part p {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
   }
 
   .card {
     background-color: #fff; /* White */
-        border-radius: 20px;
+    border-radius: 20px;
     max-width: 650px;
     border: 1px solid #ccc;
-        overflow: hidden;
+    overflow: hidden;
   }
 
   .card .description {
     padding: 0 20px;
     margin-bottom: 20px;
-}
+  }
   .card h1 {
-    color: #333; 
-        font-family: 'Archivo Black', serif;
-        text-align: center;
+    color: #333;
+    font-family: "Archivo Black", serif;
+    text-align: center;
   }
 
   .card p {
-    color: #333; 
-        font-family: 'Lora', serif;
-        margin-bottom: 8px;
+    color: #333;
+    font-family: "Lora", serif;
+    margin-bottom: 8px;
   }
 
   .project-img {
@@ -105,7 +123,7 @@
     justify-content: center;
   }
 
-  .project-img img{
+  .project-img img {
     width: 100%;
   }
   .tech h1 {
@@ -124,7 +142,7 @@
   .item1 {
     display: flex;
     color: black;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
     background-color: #fafafa;
     justify-content: center;
     align-items: center;
@@ -159,11 +177,11 @@
   .main-part h1 {
     font-size: 3rem;
     color: #025a4e; /* Dark teal */
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Bebas Neue", sans-serif;
   }
 
   .front-end {
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
     border: 1px solid #ccc;
     display: flex;
     flex-direction: column;
@@ -173,7 +191,7 @@
     margin: 10px 30px;
     max-width: 650px;
   }
-  .front-end .card_header_text{
+  .front-end .card_header_text {
     color: #333;
   }
 
@@ -186,13 +204,14 @@
   }
 
   .skill {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #fff; 
+    background-color: #fff;
     align-items: center;
     border-radius: 20px;
     margin-left: auto;
-    margin-right: auto  ;
+    margin-right: auto;
     padding-bottom: 25px;
     border: 1px solid #ccc;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
@@ -201,7 +220,7 @@
 
   .skill h1 {
     color: #333; /* Dark teal */
-        font-family: 'Bebas Neue', serif;
+    font-family: "Bebas Neue", serif;
   }
 
   .logo {
@@ -227,7 +246,7 @@
 
   footer {
     margin-top: 100px;
-    border-top: 2px solid black;
+    border-top: 1px solid rgb(201, 198, 198);
   }
 
   .footer {
@@ -236,6 +255,7 @@
     justify-content: center;
     align-items: center;
     height: 100px;
+    padding-top: 20px;
   }
 
   .media-logo {
@@ -247,6 +267,8 @@
   }
 
   .copyright {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
     margin-top: 10px;
     text-align: center;
     font-size: 1.2rem;
