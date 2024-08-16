@@ -26,13 +26,21 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    align-items: center;
+    gap: 60px;
     font-size: 1.5rem;
     width: fit-content;
-    background-color: #e5dfcf;
-    padding: 5px 50px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Bebas Neue", sans-serif;
+    color: #2c2c2c;
+    background-color: #e1e1e1;
+  }
+
+  #navlist li a:hover {
+    text-decoration: underline;
+    transition: 0.5s all;
   }
 
   a {
@@ -41,6 +49,7 @@
   } */
 
   .header {
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +58,7 @@
   }
 
   .header h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #2c2c2c;
     font-family: 'Bebas Neue', sans-serif;   
     font-weight: 800;
@@ -81,17 +90,16 @@
 
   .card {
     background-color: #fff; /* White */
-        border-radius: 20px;
+    border-radius: 20px;
     max-width: 650px;
     border: 1px solid #ccc;
-        overflow: hidden;
+    overflow: hidden;
   }
 
   .card .description {
     padding: 0 20px;
     margin-bottom: 20px;
-      font-family: "Roboto Slab", serif;
-}
+  }
   .card h1 {
     font-weight: normal;
     color: #333; 
@@ -100,8 +108,8 @@
   }
 
   .card p {
-    color: #333; 
-    font-family: "Roboto Slab", serif;
+    color: #333;
+    font-family: "Lora", serif;
     margin-bottom: 8px;
   }
 
@@ -110,7 +118,7 @@
     justify-content: center;
   }
 
-  .project-img img{
+  .project-img img {
     width: 100%;
   }
   .tech h1 {
@@ -131,7 +139,7 @@
   .item1 {
     display: flex;
     color: black;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
     background-color: #fafafa;
     justify-content: center;
     align-items: center;
@@ -167,11 +175,11 @@
     font-weight: normal;
     font-size: 3rem;
     color: #025a4e; /* Dark teal */
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Bebas Neue", sans-serif;
   }
 
   .front-end {
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
     border: 1px solid #ccc;
     display: flex;
     flex-direction: column;
@@ -198,13 +206,14 @@
   }
 
   .skill {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #fff; 
+    background-color: #fff;
     align-items: center;
     border-radius: 20px;
     margin-left: auto;
-    margin-right: auto  ;
+    margin-right: auto;
     padding-bottom: 25px;
     border: 1px solid #ccc;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
@@ -240,7 +249,7 @@
 
   footer {
     margin-top: 100px;
-    border-top: 2px solid black;
+    border-top: 1px solid rgb(201, 198, 198);
   }
 
   .footer {
@@ -249,6 +258,7 @@
     justify-content: center;
     align-items: center;
     height: 100px;
+    padding-top: 20px;
   }
 
   .media-logo {
@@ -260,6 +270,8 @@
   }
 
   .copyright {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
     margin-top: 10px;
     text-align: center;
     font-size: 1.2rem;

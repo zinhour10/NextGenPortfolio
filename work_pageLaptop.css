@@ -51,18 +51,22 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-top: 25px;
     }
 
     .header h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         color: #2c2c2c;
+        font-family: "Bebas Neue", sans-serif !important;
         font-family: 'Bebas Neue', serif;
         font-weight: 800;
     }
 
     .header p {
+        font-family: "Poppins", sans-serif !important;
         margin-top: 10px;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        font-weight: 400;
         max-width: 600px;
         color: #666;
         font-family: "Roboto Slab", serif;
@@ -75,9 +79,9 @@ body {
         max-width: 1800px;
     }
 
-    .project-part > h1 {
-        font-family: 'Bebas Neue', serif;
-        font-size: 3rem;
+    .project-part  h1 {
+        font-family: "Bebas Neue", sans-serif !important;
+        font-size: 2.5rem;
         color: #2c2c2c; /* Dark grey */
         font-weight: normal;
     }
@@ -88,6 +92,7 @@ body {
         max-width: 750px;
         border: 1px solid #ccc;
         overflow: hidden;
+        margin-top: 10px;
     }
     .card .description {
         padding: 0 20px;
@@ -102,7 +107,7 @@ body {
 
     .card p {
         color: #333; /* Dark grey */
-        font-family: "Roboto Slab", serif;
+        font-family: "Poppins", sans-serif !important;
         margin-bottom: 8px;
     }
 
@@ -208,6 +213,7 @@ body {
         max-width: 750px;
         border: 1px solid #ccc;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+        margin-top: 15px;
     }
 
     .skill h1 {
