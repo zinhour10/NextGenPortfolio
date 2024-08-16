@@ -110,6 +110,7 @@ body {
         background-color: #e1e1e1;
         border-radius: 46px;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+        margin: 0;
 
     }
     #navlist li a:hover {
