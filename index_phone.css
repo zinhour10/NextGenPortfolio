@@ -82,7 +82,8 @@ body{
     .card h1{
         font-family: "Bebas Neue", sans-serif;
         color: #3a3a3a;
-        font-size: 16px;
+        font-size: 1.5em;
+        font-weight: normal;
     }
     .card-description{
         display: flex;
@@ -128,7 +129,7 @@ body{
     }
 
     .card3 h1{
-        font-size: 28px;
+        font-size: 1.5em;
         font-family: "Bebas Neue", sans-serif;
         color: #3a3a3a;
         text-align: left;

@@ -16,13 +16,12 @@ a:active {
 }
 @media only screen and (min-width: 1200px) {
     .footer{
-        width: 100vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 344px;
-        border-top: 1px solid black;
+        /* border-top: 1px solid black; */
         margin-top: 50px;
     }
     .footer .media-logo{
