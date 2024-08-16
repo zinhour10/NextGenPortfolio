@@ -106,7 +106,7 @@ body{
         display: flex;
         flex-direction: row;
         font-size: 16px;
-        border: 1px solid black;
+        border: 1px solid #ccc; 
         align-items: center;
         padding: 15px 20px;
         gap: 4px;
@@ -176,12 +176,14 @@ body{
     }
 
     .skill_header{
+        
         font-size: 32px;
         text-align: center;
         margin-bottom: 22px;
         
     }
     .card_header_text{
+        font-family: "Bebas Neue", sans-serif;
         font-size: 32px;
         color: #333; 
         text-align: center;

@@ -23,67 +23,68 @@ body{
     align-items: center;
 }
 @media only screen and (min-width: 1200px) {
-    .content{
-        padding: 20px 50px;
-        max-width: 1800px;
-    }
-    .profile {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 0 20px;
-        margin-bottom: 20px;
-    }
-    .profile_img{
-        background-color: #FFCCB2;
-        padding: 0 40px;
-        border-radius: 120px 10px;
-        overflow: hidden;
-        width: 30%;
-    }
-    .profile_img img{
-        position: relative;
-        width: 100%;
-        top: 5px;
-        /* width: calc(100%-20%); */
-        
-    }
-    .detail h1{
-        color: #FFCCB2;
-        font-size: 3em;
-        font-family: "Open Sans", sans-serif;
-        font-style: italic;
-        font-weight: 800;
-        text-align: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+    /* Content Section */
+.content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
 
-    .detail h4{
-        color: #FFE4D5;
-        font-size: 2em;
-        font-family: "Open Sans", sans-serif;
-        font-style: italic;
-        font-weight: 800;
-        text-align: center;
-        margin-bottom: 64px;
-    }
-    .d1 h1, .d2 h1, .d3 h1{
-        color: #FFCCB2;
-        font-family: "Bebas Neue", sans-serif;
-        font-size: 2em;
-        text-align: center;
-        font-weight: normal;
-        margin: 20px 0;
-    }
+.text .d1,
+.text .d2,
+.text .d3 {
+    margin-bottom: 40px;
+}
 
+.text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
 
-    .d1 p, .d2 p, .d3 p{
-        color: #FFE4D5;
-        font-family: "Bebas Neue", sans-serif;
-        font-size: 1.5em;
-    }
+.text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #666;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.profile .detail {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.profile .detail h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.profile .detail h4 {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.profile_img {
+    flex: 1;
+    text-align: right;
+}
+
+.profile_img img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
+
     footer {
         margin-top: 20px;
     }
