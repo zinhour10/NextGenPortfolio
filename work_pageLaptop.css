@@ -253,3 +253,16 @@ body {
         font-size: 1.2rem;
     }
 }
+
+.item1 i,
+.item p {
+    color: orange;
+}
+
+.item1 p {
+    color: black;
+}
+
+.item2 i {
+    color: #e3c815; /* Golden yellow */
+}

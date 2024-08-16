@@ -1,17 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Palanquin+Dark:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Palanquin+Dark:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Palanquin+Dark:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Lora:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Palanquin+Dark:wght@400;500;600;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 body{
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Lora:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body {
-    background-color: #f5f5f5; /* Light grey */
-    font-family: 'Lora', serif; /* Body font */
-}
 
 
 body{
@@ -25,17 +19,15 @@ body{
     .header h1{
         color: #2c2c2c;
         font-size: 36px;
-        font-family: "Lora", sans-serif;
-        font-style: italic;
+        font-family: "Archivo Black", sans-serif;
         font-weight: 800;
         text-align: center;
     }
     .header p{
-        color: #FFE4D5;
+        color: #666;
         font-size: 16px;
-        font-family: "Open Sans", sans-serif;
-        font-style: italic;
-        font-weight: 800;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: normal;
         text-align: center;
     }
     .project-part{
@@ -47,8 +39,8 @@ body{
     } 
 
     .project-part h1{
-        font-family: "Bebas Neue", sans-serif;
-        color: #FFCCB2;
+        font-family: "Archivo Black", sans-serif;
+        color: #2c2c2c;
         font-size: 36px;
         font-weight: normal;
         text-align: center;
@@ -57,9 +49,10 @@ body{
     .card {
         width: 100%;
         border-radius: 20px;
-        border: 1px solid black;
         max-width: 500px;
         overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #fff;
     }
 
     .card .description{
@@ -69,12 +62,12 @@ body{
     .card p{
         font-family: "Bebas Neue", sans-serif;
         font-size: 16px;
-        color: #A29A89;
+        color: #333;
     }
  
     .card .nameProject{
         font-family: "Bebas Neue", sans-serif;
-        color: #FFCCB2;
+        color: #333;
         font-size: 32px;
         font-weight: normal;  
 
@@ -119,7 +112,7 @@ body{
         gap: 4px;
         border-radius: 20px;
         width: 140px;
-        background-color: #E5DFCF;
+        background-color: #fafafa;
     }
 
 
@@ -133,22 +126,21 @@ body{
         align-items: center;
     }
     .tech h1{
-        color: #FFCCB2;
+        color: #333;
         font-weight: normal;
     }
     .main-part h1{
-        color: #025A4E;
         font-weight: normal;
     }
     .main-part .mainCard{
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); 
         border-radius: 20px;
-        border: 1px solid black;
+        border: 1px solid #ccc;
         max-width: 500px;
         padding: 0 20px;
         margin-bottom: 20px;
-        background-color: #E5DFCF;
+        background-color: #fff;
         padding-bottom: 20px;
-        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 
     }
     .main-part .mainCard .card_header_text{
@@ -169,18 +161,17 @@ body{
         flex-direction: column;
     }
     .skill {
-        
         max-width: 500px;
         align-self: center;
         justify-self: center;
         padding: 0 19px 60px 19px;
-        border: 1px solid black;
+        border: 1px solid #ccc;
         border-radius: 20px;
         margin-bottom: 60px;
-        background-color: #E5DFCF;
+        background-color: #fff;
         margin-right: 20px;
         margin-left: 20px;
-        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
     }
 
     .skill_header{
@@ -191,7 +182,7 @@ body{
     }
     .card_header_text{
         font-size: 32px;
-        color: #025A4E;
+        color: #333; 
         text-align: center;
         margin-bottom: 20px;
     }
