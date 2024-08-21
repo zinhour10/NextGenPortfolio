@@ -6,10 +6,12 @@ body{
   flex-direction: column;
   align-items: center;
 }
-
+@media only screen and (min-width: 1200px){
 .content{
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .left-content{
   font-family: "Poppins", sans-serif !important;
@@ -18,21 +20,61 @@ body{
 .left-content h1{
   font-family: "Bebas Neue", sans-serif;
   font-size: clamp(0px,3em, 100px);
+  padding: 0;
+  margin: 0;
 }
 .left-content p{
-  font-size: clamp(0px,1.5em, 50px);
+  font-size: clamp(0px,1.2em, 50px);
 }
+
 
 .middle-left .btn1, .middle-left .btn2{
-  background-color: red;
   border: none;
-  font-size: 30px;
-  padding: 8px 20px;
-  border-radius: 8px;
+  font-size: 20px;
+  padding: 20px 20px;
+  border-radius: 10px;
 }
+.middle-left .btn1{
+  background-color: #d1d1d1;
+}
+.middle-left .btn2{
+  background-color: #f5f5f5;
+}
+.buttom-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.buttom-left p{
+  font-size: 20px;
+}
+.buttom-left span{
+  background-color: #d1d1d1;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+.right-content{
+  font-family: "Poppins", sans-serif !important;
+}
+.right-content p{
+  position: relative;
+  bottom: 300px;
+  left: 250px;
+  z-index: 1;
 
-.frame-img img{
+}
+.frame-img{
   width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #d1d1d1;
+}
+.frame-img img{
+  width: 100%;
   position: relative;
   z-index: 1;
+}
 }
