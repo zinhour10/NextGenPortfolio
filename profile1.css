@@ -1,61 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Lora:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Palanquin+Dark:wght@400;500;600;700&family=Roboto+Slab:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .content{
-    display: flex;
+  display: flex;
+  justify-content: space-around;
 }
-/* .frame-img{
-    width: 300px;
-    background-color: #6C6;
-    aspect-ratio: 104 / 120; 
-    clip-path: polygon(
-      50% 0%, 
-      100% 25%,
-      100% 75%,
-      50% 100%,
-      0% 75%,
-      0% 25%
-    );
-} */
+.left-content{
+  font-family: "Poppins", sans-serif !important;
+  width: 30%;
+}
+.left-content h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(0px,3em, 100px);
+}
+.left-content p{
+  font-size: clamp(0px,1.5em, 50px);
+}
+
+.middle-left .btn1, .middle-left .btn2{
+  background-color: red;
+  border: none;
+  font-size: 30px;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
 .frame-img img{
-    width: 300px;
-    position: relative;
-    z-index: 1;
-    clip-path: polygon(
-      50% 0%,
-      100% 0%,
-      100% 75%,
-      50% 100%,
-      0% 75%,
-      0% 25%
-    );
-}
-.background-img{
-    width: 10em;
-    height: 17.32em;
-    background-color: rgb(0, 255, 0);
-    position: relative;
-    z-index: 0;
-    bottom: 320px;   
-    transform: rotate(30deg); 
-    border-radius: 1em/.5em;
-}
-
-.background-img::before, .background-img::after{
-  content: '';
-  position: absolute;
-  width: inherit;
-  height: inherit;
-  background: inherit;
-  border-radius: inherit;
-}
-
-.background-img::before{
-  transform: rotate(60deg);
-  
-}
-.background-img::after{
-  transform: rotate(-60deg);
+  width: 300px;
+  position: relative;
+  z-index: 1;
 }
